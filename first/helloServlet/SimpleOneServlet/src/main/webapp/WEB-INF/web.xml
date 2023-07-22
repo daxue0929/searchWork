@@ -9,10 +9,11 @@
     <servlet-name>servlet-demo-3</servlet-name>
     <servlet-class>com.daxue.servlet.ServletDemo3</servlet-class>
   </servlet>
-
   <servlet-mapping>
     <servlet-name>servlet-demo-3</servlet-name>
     <url-pattern>/demo3</url-pattern>
   </servlet-mapping>
+
+
 
 </web-app>

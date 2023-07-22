@@ -14,7 +14,7 @@ import java.io.IOException;
 /**
  * @author daxue0929
  * @date 2023/7/23
- * 这里有个坑: 实现Filter,在java8上三个方法都要重写.
+ * 这里有个坑: 实现Filter,在java8上三个方法都要重写, 没有内容的话,就留空,如destroy,调用父类的方法会报错
  * https://blog.csdn.net/q4930153/article/details/121042261
  */
 
@@ -29,7 +29,7 @@ public class FilterDemo implements Filter {
         System.out.println("enter demo2 filter...");
 
 
-        //todo: 全局过滤器逻辑
+        //todo: 过滤器逻辑
 
         //过滤器判定通过,往下继续调用.
         chain.doFilter(request, response);
