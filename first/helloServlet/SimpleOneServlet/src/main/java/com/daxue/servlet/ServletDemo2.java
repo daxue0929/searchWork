@@ -41,6 +41,7 @@ public class ServletDemo2 extends HttpServlet {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
             ResultSet rs = preparedStatement.executeQuery();
             while (rs.next()) {
+                //todo: https://blog.csdn.net/weixin_44747933/article/details/108301626
                 ObjectMapper mapper = new ObjectMapper();
                 User user = new User();
                 user.setId(rs.getInt("id"));

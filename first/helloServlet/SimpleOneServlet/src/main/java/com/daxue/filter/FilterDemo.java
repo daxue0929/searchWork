@@ -29,7 +29,7 @@ public class FilterDemo implements Filter {
         System.out.println("enter demo2 filter...");
 
 
-        //todo: 过滤器逻辑
+        //过滤器逻辑(省略)
 
         //过滤器判定通过,往下继续调用.
         chain.doFilter(request, response);
