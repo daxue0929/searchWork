@@ -89,6 +89,7 @@
           <port>9090</port>
           <uriEncoding>UTF-8</uriEncoding>
           <server>tomcat7</server>
+          <contextReloadable>false</contextReloadable>
         </configuration>
       </plugin>
     </plugins>
